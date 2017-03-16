@@ -1,5 +1,5 @@
 " Put vundle plugin commands in this file
-source ./.vimrc.vundle
+source ~/.vimrc.vundle
 
 let mapleader="\<Tab>"
 inoremap <leader>e <c-c>
