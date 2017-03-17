@@ -118,8 +118,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f /etc/bash_completion ] && ! shopt -oq posix; then                       
-      . /etc/bash_completion                                                    
-fi                                                                              
-
 set -o vi
+bind '"\<Tab>e":vi-movement-mode'
