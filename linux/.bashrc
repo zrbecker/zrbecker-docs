@@ -119,4 +119,4 @@ if ! shopt -oq posix; then
 fi
 
 set -o vi
-bind '"\<Tab>e":vi-movement-mode'
+bind '"\te":vi-movement-mode'
